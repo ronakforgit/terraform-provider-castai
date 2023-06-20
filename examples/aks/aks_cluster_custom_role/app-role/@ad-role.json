@@ -1,0 +1,54 @@
+{
+  "assignableScopes": [
+    "/subscriptions/54eb2157-b104-4418-9eae-763bedccc73c"
+  ],
+  "description": "",
+  "permissions": [
+    {
+      "actions": [
+        "Microsoft.Compute/*/read",
+        "Microsoft.Compute/virtualMachines/*",
+        "Microsoft.Compute/virtualMachineScaleSets/*",
+        "Microsoft.Compute/disks/write",
+        "Microsoft.Compute/disks/delete",
+        "Microsoft.Compute/disks/beginGetAccess/action",
+        "Microsoft.Compute/galleries/write",
+        "Microsoft.Compute/galleries/delete",
+        "Microsoft.Compute/galleries/images/write",
+        "Microsoft.Compute/galleries/images/delete",
+        "Microsoft.Compute/galleries/images/versions/write",
+        "Microsoft.Compute/galleries/images/versions/delete",
+        "Microsoft.Compute/snapshots/write",
+        "Microsoft.Compute/snapshots/delete",
+        "Microsoft.Network/*/read",
+        "Microsoft.Network/networkInterfaces/write",
+        "Microsoft.Network/networkInterfaces/delete",
+        "Microsoft.Network/networkInterfaces/join/action",
+        "Microsoft.Network/networkSecurityGroups/join/action",
+        "Microsoft.Network/virtualNetworks/subnets/join/action",
+        "Microsoft.Network/applicationGateways/backendhealth/action",
+        "Microsoft.Network/applicationGateways/backendAddressPools/join/action",
+        "Microsoft.Network/applicationSecurityGroups/joinIpConfiguration/action",
+        "Microsoft.Network/loadBalancers/backendAddressPools/write",
+        "Microsoft.Network/loadBalancers/backendAddressPools/join/action",
+        "Microsoft.ContainerService/*/read",
+        "Microsoft.ContainerService/managedClusters/start/action",
+        "Microsoft.ContainerService/managedClusters/stop/action",
+        "Microsoft.ContainerService/managedClusters/runCommand/action",
+        "Microsoft.ContainerService/managedClusters/agentPools/*",
+        "Microsoft.Resources/*/read",
+        "Microsoft.Resources/tags/write",
+        "Microsoft.Authorization/locks/read",
+        "Microsoft.Authorization/roleAssignments/read",
+        "Microsoft.Authorization/roleDefinitions/read",
+        "Microsoft.ManagedIdentity/userAssignedIdentities/assign/action"
+      ],
+      "dataActions": [],
+      "notActions": [],
+      "notDataActions": []
+    }
+  ],
+  "roleName": "CastAKSRole-<cluster-name>-tf",
+  "roleType": "CustomRole",
+  "type": "Microsoft.Authorization/roleDefinitions"
+}
